@@ -90,6 +90,7 @@ img {
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
+    margin-top: 60px;
 }
 
 .information-container {
@@ -109,5 +110,77 @@ img {
     height: 200px;
     border: 6px solid #3882F6;
     border-radius: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 400px;
+    display: flex;
+    font-size: 25px;
+    font-style: italic;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.thor {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#flex-end {
+    align-self: flex-end;
+}
+
+.call-container {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-container-two {
+    background-color: #3882F6;
+    padding: 20px 80px;
+    border-radius: 10px;
+    display: flex;
+    gap: 80px;
+}
+
+.call {
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bot {
+    border: 1px solid white;
+    
+}
+
+.bot {
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.bot-2 {
+    align-self: center;
+}
+
+.footer {
+    background-color: #172937;
+    height: 80px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 

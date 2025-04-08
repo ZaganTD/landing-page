@@ -18,11 +18,55 @@
 ul {
     list-style: none;
     display: flex;
-    color: lightgrey;
     gap: 30px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .header,
 .hero {
     background-color: #1f2937;
 }
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    align-items: center;
+}
+
+.hero-text {
+    width: 370px;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+img {
+    height: 200px;
+    width: 400px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+.hero-main,
+.hero-secondary,
+.button-hero {
+    margin-top: 10px;
+}
+
+

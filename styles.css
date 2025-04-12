@@ -120,3 +120,24 @@ img {
     align-self: flex-end;
     font-weight: bold;
 }
+
+.call-container {
+    margin: 80px auto;
+    color: #f9faf8;
+    background-color: #3882f6;
+    display: flex;
+    width: 900px;
+    padding: 50px 100px;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.call-container button {
+    border: solid #f9faf8 2px;
+    width: 150px;
+    font-weight: bold;
+}
